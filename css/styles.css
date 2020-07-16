@@ -1,0 +1,16 @@
+/*
+SELECTORES:
+-Universal = * {}
+-De tipo = Etiqueta {}
+-Clases = .clase {}
+-ID = #id {}
+-Por Atributo = [atributo = "valor"] {}
+-Descendiente = etiqueta propiedad "h2 p {}" tambien puede ser .clase propiedad
+-Pseudo-clases = etiqueta:pseudo-clase;
+*/
+
+div p:hover{
+	color: green;
+} /*al pasar el mouse se pone en verde*/
+
+/* !important es el que siempre tendrá mayor prioridad en jerarquía*/
